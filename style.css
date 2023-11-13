@@ -1,0 +1,515 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+section {
+  padding: 100px 0;
+  background-color: #122e44;
+}
+
+.section_title {
+  margin-bottom: 30px;
+}
+.section_title h2 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.section_title h2:hover {
+  background-color: #24caac;
+}
+
+header {
+  background-color: rgb(44, 37, 37);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+#menu_bar {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-links {
+  display: flex;
+}
+.navbar-links li a {
+  margin-left: 15px;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.navbar-links li a:hover {
+  background-color: #24caac;
+}
+.logo h2 a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo h2 a span {
+  color: brown;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+.text {
+  flex-basis: 45%;
+}
+.text h1 {
+  font-size: 50px;
+  color: #24caac;
+}
+.span {
+  color: brown;
+}
+.text p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #24caac;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #24caac;
+  color: #fff;
+  font-weight: 700px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+/* yazılımlar*/
+
+.card-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.card {
+  flex-basis: 31%;
+  color: #fff;
+  padding: 25px 20px;
+  border-radius: 5px;
+  background-color: rgba(55, 66, 80, 0.281);
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  margin-left: 10px;
+}
+.card:hover {
+  border: 1px solid #24caac;
+}
+.card .icon {
+  font-size: 25px;
+  color: #24caac;
+}
+.card .icon h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.card p {
+  font-size: 16px;
+}
+
+/* sertifikalarım */
+
+.inner_courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_courses {
+  flex-basis: 23%;
+  color: #fff;
+  padding: 20px 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.child_courses:hover {
+  border: 1px solid #24caac;
+}
+.child_courses .detail {
+  display: flex;
+  justify-content: space-between;
+}
+.child_courses ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+/* BAŞARILAR*/
+
+.inner_achivement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_achivement {
+  flex-basis: 40%;
+}
+.child_achivement img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.child_achivement2 {
+  flex-basis: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.single_detail {
+  flex-basis: 48%;
+  padding: 40px 30px;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.single_detail:hover {
+  transform: scale(1.03);
+}
+.sd_1 {
+  background-color: #eaa023;
+  margin-bottom: 20px;
+}
+.sd_2 {
+  background-color: #e91e63;
+  margin-bottom: 20px;
+}
+.sd_3 {
+  background-color: #24caac;
+  margin-bottom: 20px;
+}
+.sd_4 {
+  background-color: #2f363e;
+}
+
+/* hakkımızda*/
+.inner_testi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+.child_testi {
+  flex-basis: 46%;
+  margin-bottom: 30px;
+}
+.testi_img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.testi_img img {
+  border-radius: 50%;
+}
+.text_highlight {
+  color: #24caac;
+  margin: 10px 0;
+  display: inline-block;
+}
+.text_highlight:hover {
+  text-decoration: underline;
+}
+
+/* iletişim */
+.inner_contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+.child_contact {
+  flex-basis: 45%;
+}
+.child_contact form {
+  padding: 50px 40px;
+  background: #2f363e;
+  border-radius: 5px;
+}
+.child_contact form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 28px;
+  background: #24292d;
+  border: none;
+  resize: none;
+  border-radius: 25px;
+  transition: 0.3s ease-in;
+}
+.child_contact form input,
+textarea:focus {
+  color: #fff;
+}
+
+.child_contact form input:focus {
+  letter-spacing: 1px;
+}
+.child_contact form textarea:focus {
+  letter-spacing: 1px;
+}
+.child_contact form input:last-child {
+  margin-bottom: 0;
+  background-color: #24caac;
+  border: 1px solid #24caac;
+  transition: 0.3s;
+}
+.child_contact form input:last-child:hover {
+  background: transparent;
+  color: #fff;
+}
+/* footer */
+
+footer {
+  background: #24292d;
+  padding: 60px 0 20px 0;
+  color: #fff;
+}
+
+.inner_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child_footer {
+  flex-basis: 24%;
+}
+
+.child_footer h3 {
+  margin-bottom: 20px;
+}
+
+.child_footer .footer_social {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin,
+.fa-map-location-dot,
+.fa-square-phone,
+.fa-envelope {
+  color: #24caac;
+}
+.child_footer ul li {
+  flex-basis: 15%;
+}
+
+.child_footer ul li a {
+  color: #fff;
+}
+
+.quick_links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick_links li {
+  margin-bottom: 7px;
+}
+
+.quick_links li a:hover {
+  text-decoration: underline;
+}
+
+.footer_contact li {
+  margin-bottom: 10px;
+}
+
+.footer_contact li i {
+  margin-right: 5px;
+}
+
+.child_footer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.child_footer form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  background: #2f363e;
+  border: none;
+}
+
+.child_footer form input:focus {
+  color: #fff;
+}
+
+.child_footer form input:last-child {
+  background: #24caac;
+  margin: 0;
+  border: 1px solid #24caac;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.child_footer form input:last-child:hover {
+  background: transparent;
+  border: 1px solid #24caac;
+}
+
+/*RESPONSİVE */
+
+@media (max-width: 770px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .logo h2 a {
+    font-size: 20px;
+  }
+
+  .menu_bar {
+    display: grid;
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .navbar-links {
+    flex-direction: column;
+    position: absolute;
+    background: #24292d;
+    width: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  .navbar-links li a {
+    border-bottom: 1px solid #fff;
+    display: block;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+  }
+  .navbar-links li:last-child a {
+    border-bottom: none;
+  }
+  .inner_home {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .text {
+    flex-basis: 100%;
+  }
+  .resim {
+    margin-bottom: 20px;
+  }
+  .text h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .text p {
+    font-size: 20px;
+  }
+  /* yazılımlar*/
+  .card-container {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  /* sertifikalarım*/
+  .child_courses {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* başarılar*/
+  .child_achivement {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .child_achivement .sd_3 {
+    margin-bottom: 20px;
+  }
+
+  /* hakkımda */
+  .child_testi {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+  .child_testi:last-child {
+    margin-bottom: 0;
+  }
+
+  /*iletişim*/
+  .child_contact {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* footer*/
+  .child_footer {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .child_footer h3 {
+    margin-bottom: 10px;
+  }
+  .child_footer {
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+}
